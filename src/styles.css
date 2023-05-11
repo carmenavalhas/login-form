@@ -1,0 +1,112 @@
+body {
+  background: #E5E3E0;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+}
+
+#main-container {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px 40px 0 25px;
+}
+
+#login-container {
+  height: 340px;
+  width: 320px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-for-access {
+  font-family: 'Jost', sans-serif;
+  color: #DDA556;
+  font-size: 30px;
+}
+
+#login-button {
+  font-family: 'Jost', sans-serif;
+  border: none;
+  font-size: 18px;
+  color: white;
+  width: 140px;
+  border-radius: 35px;
+  background: #DDA556;
+  box-shadow: inset -5px 5px 10px #c2914c,
+    inset 5px -5px 10px #f8b960;
+}
+
+#login-button:hover {
+  color: #DDA556;
+  background: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  color: grey;
+  font-family: 'Jost', sans-serif;
+}
+
+
+a:visited {
+  color: #E6B8C9;
+}
+
+a {
+  color: #CC752E;
+  text-decoration: none;
+}
+
+.coded-by {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#user-icon {
+  font-size: 13px;
+  border: none;
+  color: #DDA556;
+}
+
+
+#lock-icon {
+  font-size: 13px;
+  border: none;
+  color: #DDA556;
+}
+
+#eye {
+  font-size: 13px;
+  border: none;
+  color: #DDA556;
+}
+
+.register-group {
+  font-size: 10px;
+}
+
+#register {
+  color: #DDA556;
+}
+
+#register:hover {
+  color: #463215;
+}
+
+
+#remember-me {
+  font-size: 10px;
+}
+
+.form-check-input {
+  background: rgba(248, 185, 96, 0.4);
+  border: 1.2px solid #f8b960;
+}
+
+.form-check-label {
+  font-size: 11px;
+}
