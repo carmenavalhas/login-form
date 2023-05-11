@@ -4,11 +4,11 @@ body {
   text-align: center;
 }
 
-#main-container {
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 25px 40px 0 25px;
+.main-container {
+  max-width: 600px;
+  background: rgba(179, 121, 138, 0.2);
+  margin: 80px auto 10px auto;
+  padding: 40px 40px 10px 40px;
 }
 
 #login-container {
@@ -31,7 +31,7 @@ body {
   font-size: 18px;
   color: white;
   width: 140px;
-  border-radius: 35px;
+  border-radius: 32px;
   background: #DDA556;
   box-shadow: inset -5px 5px 10px #c2914c,
     inset 5px -5px 10px #f8b960;
@@ -46,14 +46,14 @@ body {
 
 footer {
   text-align: center;
-  font-size: 11px;
+  font-size: 14px;
   color: grey;
   font-family: 'Jost', sans-serif;
 }
 
 
 a:visited {
-  color: #E6B8C9;
+  color: #B3798A;
 }
 
 a {
@@ -62,7 +62,7 @@ a {
 }
 
 .coded-by {
-  margin: 0 auto;
+  margin: 0 auto 30px 0;
   padding: 40px;
 }
 
