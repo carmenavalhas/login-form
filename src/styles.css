@@ -122,3 +122,21 @@ a {
 .form-check-label {
   font-size: 11px;
 }
+
+.image {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/518/original/3d-girl.png?1683847147");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  width: 200px;
+}
+
+@media (max-width: 900px){
+.image {
+   
+    height: 165px;
+    width: 100px;
+
+  
+    }
+}
