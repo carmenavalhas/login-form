@@ -4,11 +4,12 @@ body {
   text-align: center;
 }
 
-.main-container {
+
+.the-main {
+  margin: 60px auto;
+  background: rgba(179, 121, 138, 0.04);
+  border-radius: 20px;
   max-width: 600px;
-  background: rgba(179, 121, 138, 0.2);
-  margin: 80px auto 10px auto;
-  padding: 40px 40px 10px 40px;
 }
 
 #login-container {
@@ -16,7 +17,7 @@ body {
   width: 320px;
   border-radius: 8px;
   background: #ffffff;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
 }
 
 .login-for-access {
@@ -53,11 +54,12 @@ footer {
 
 
 a:visited {
-  color: #B3798A;
+    color: #B3798A;
+  
 }
 
 a {
-  color: #CC752E;
+  color: rgba(179, 121, 138, 0.7);
   text-decoration: none;
 }
 
@@ -85,8 +87,17 @@ a {
   color: #DDA556;
 }
 
+#username {
+  font-weight: 300;
+}
+
+#password {
+  font-weight: 300;
+}
+
 .register-group {
-  font-size: 10px;
+  font-size: 13px;
+  font-weight:200;
 }
 
 #register {
@@ -99,7 +110,8 @@ a {
 
 
 #remember-me {
-  font-size: 10px;
+  font-weight: 200;
+  font-size: 13px;
 }
 
 .form-check-input {
