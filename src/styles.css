@@ -133,7 +133,7 @@ a {
     max-height: 200px;
 
     .login-form {
-      max-height: 200px;
+      height: 400px;
       width: 170px;
     }
 
