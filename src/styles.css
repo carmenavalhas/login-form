@@ -5,16 +5,16 @@ body {
 }
 
 
-.the-main {
+.main-container {
   margin: 60px auto;
   background: rgba(179, 121, 138, 0.04);
   border-radius: 20px;
   max-width: 600px;
 }
 
-#login-container {
-  height: 400px;
-  width: 320px;
+.login-form {
+  max-height: 400px;
+  width: 340px;
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
@@ -54,8 +54,8 @@ footer {
 
 
 a:visited {
-    color: #B3798A;
-  
+  color: #B3798A;
+
 }
 
 a {
@@ -97,7 +97,7 @@ a {
 
 .register-group {
   font-size: 13px;
-  font-weight:200;
+  font-weight: 200;
 }
 
 #register {
@@ -123,20 +123,13 @@ a {
   font-size: 11px;
 }
 
-.image {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/518/original/3d-girl.png?1683847147");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 330px;
-  width: 200px;
+#image {
+  max-width: 300px;
 }
 
-@media (max-width: 900px){
-.image {
-   
-    height: 280px;
-    width: 170px;
 
-  
-    }
+@media (max-width: 900px) {
+  .image {
+    max-height: 200px;
+  }
 }
